@@ -1,0 +1,203 @@
+.col-1{
+    width: 8.33%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-10{
+    width: 83.33%;
+    float: left;
+}
+.col-11{
+    width: 91.66%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+
+.container>div{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.item1{
+    background-color: black;
+    height: 40px;
+}
+.item2{
+    background-color: red;
+    height: 40px;
+}
+.item3{
+    background-color: lightskyblue;
+    height: 300px;
+}
+.item4{
+    background-color: darkblue;
+    height: 140px;
+    
+}
+.item5{
+    background-color: #69d4c1;
+    height: 50px;
+    float: right;
+   
+    
+
+}
+.item6{
+    background-color: #389886;
+    height: 50px;
+    float: right;
+    
+    
+}
+.item7{
+    background-color:goldenrod;
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width:480px){
+    [class*="col-"]{
+        width: 100%;
+        float: left;
+        height: 90px;
+    }
+    
+    
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="item1"]{
+        width: 100%;
+        float: right;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width:490px) and (max-width:768px){
+    [class*="item2"]{
+        
+        width: 50px;
+        height: 500px;
+        margin-top: 320px;
+        position: absolute;
+        top: 7px;
+        z-index: 1;
+        
+
+    }
+    
+    
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="item3"]{
+        width: 100%;
+        float: right;
+        height: 200px;
+    }
+    
+    
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="item4"]{
+        width: 93%;
+        float: right;
+        height: 200px;
+    }
+    
+    
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="item5"]{
+        width: 45%;
+        float: right;
+        position: absolute;
+        top: 89%;
+        left: 54%;
+        
+    }
+    
+    
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="item6"]{
+        width: 50%;
+        float: right;
+        position: absolute;
+        top: 89%;
+        left: 8%;
+        
+        
+    }
+    
+    
+}
+
+
+
+
+
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="item7"]{
+        width: 93%;
+        float: right;
+        height: 140px;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1300px){
+    [class*="col-5"]{
+        width: 30%;
+        
+    }
+    
+}
+
