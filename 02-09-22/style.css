@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.fa-jet-fighter{
+    color: white;
+    transform: rotate(-25deg);
+    font-size: 30px;
+    margin-left: 30px;
+}
+.nav-h3{
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
