@@ -9,3 +9,51 @@
     color: aliceblue;
     font-family: 'Dancing Script', cursive;
 }
+.h2{
+    color: darkmagenta;
+}
+
+
+.car-but{
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: goldenrod;
+}
+
+
+.con-1{
+    background-color: #e1fcff;
+}
+
+.con-bg{
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg?w=2000');
+}
+
+
+.con-2 button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+    color: grey;
+}
+
+.con-3 button{
+ border-radius: 50px;
+ width: 50px;
+ height: 50px;
+ background-color: goldenrod;
+ border: none;
+ color: aliceblue;
+}
+.con-3 h6{
+    color: #277BC0;
+}
